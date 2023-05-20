@@ -47,7 +47,7 @@ app.post("/signup", function (req, res) {
   var url = "https://us14.api.mailchimp.com/3.0/lists/9a7ae3869a";
   var options = {
     method: "POST",
-    auth: "tamir:53af665483fbc6f51830251ed927bef2-us14",
+    auth: "tamirr:53af665483fbc6f51830251ed927bef2-us14",
   };
 
   const request = https.request(url, options, function (response) {
